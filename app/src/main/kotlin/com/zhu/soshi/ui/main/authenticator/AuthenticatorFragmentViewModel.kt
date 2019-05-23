@@ -9,7 +9,7 @@ import androidx.lifecycle.MutableLiveData
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.functions.BiFunction
-import net.samystudio.beaver.data.AsyncState
+import com.zhu.soshi.data.AsyncState
 import net.samystudio.beaver.data.manager.AuthenticatorRepositoryManager
 import net.samystudio.beaver.data.manager.UserManager
 import net.samystudio.beaver.di.scope.FragmentScope

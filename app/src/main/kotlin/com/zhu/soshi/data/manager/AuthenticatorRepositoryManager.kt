@@ -1,7 +1,7 @@
 package net.samystudio.beaver.data.manager
 
 import io.reactivex.Observable
-import net.samystudio.beaver.data.AsyncState
+import com.zhu.soshi.data.AsyncState
 import net.samystudio.beaver.data.remote.api.AuthenticatorApiInterface
 import javax.inject.Inject
 import javax.inject.Singleton

@@ -3,7 +3,7 @@ package net.samystudio.beaver.ui.base.fragment
 import android.os.Bundle
 import android.view.View
 import androidx.lifecycle.Observer
-import net.samystudio.beaver.data.AsyncState
+import com.zhu.soshi.data.AsyncState
 import net.samystudio.beaver.ui.base.viewmodel.BaseFragmentViewModel
 import net.samystudio.beaver.ui.base.viewmodel.DataPushViewModel
 

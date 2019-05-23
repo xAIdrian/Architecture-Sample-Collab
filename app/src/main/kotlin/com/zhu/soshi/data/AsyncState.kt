@@ -1,4 +1,4 @@
-package net.samystudio.beaver.data
+package com.zhu.soshi.data
 
 /**
  * Async request states, response contains no data.

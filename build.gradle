@@ -20,7 +20,7 @@ buildscript {
                 firebase_core       : '16.0.6',
                 firebase_appindexing: '17.1.0',
                 firebase_perf       : '16.2.3',
-                crashlytics         : '2.9.8',
+                crashlytics         : '2.10.0',
 
                 // dagger
                 dagger              : '2.16',
@@ -62,7 +62,7 @@ buildscript {
         maven { url 'https://maven.fabric.io/public' }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.5.0-alpha09'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
         classpath 'com.google.gms:google-services:4.2.0'
         classpath 'com.google.firebase:firebase-plugins:1.1.5'

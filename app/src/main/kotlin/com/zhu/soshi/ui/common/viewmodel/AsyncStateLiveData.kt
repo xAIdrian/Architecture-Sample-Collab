@@ -3,7 +3,7 @@ package net.samystudio.beaver.ui.common.viewmodel
 import androidx.lifecycle.LiveData
 import io.reactivex.Flowable
 import io.reactivex.Observable
-import net.samystudio.beaver.data.AsyncState
+import com.zhu.soshi.data.AsyncState
 
 class AsyncStateLiveData : LiveData<AsyncState>() {
     fun bind(observable: Observable<AsyncState>): Observable<AsyncState> =
