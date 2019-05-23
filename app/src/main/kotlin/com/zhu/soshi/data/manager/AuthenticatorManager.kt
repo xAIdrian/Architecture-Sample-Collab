@@ -1,10 +1,11 @@
-package net.samystudio.beaver.data.manager
+package com.zhu.soshi.data.manager
 
 import android.accounts.*
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.core.os.bundleOf
+import net.samystudio.beaver.data.manager.UserManager
 import net.samystudio.beaver.data.remote.api.AuthenticatorApiInterface
 import net.samystudio.beaver.di.qualifier.ApplicationContext
 import net.samystudio.beaver.ui.main.MainActivity

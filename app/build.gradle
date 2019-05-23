@@ -11,6 +11,10 @@ def versionMinor = 0
 def versionPatch = 0
 def versionBuild = 0
 
+def secretPropertiesFile = rootProject.file("secret.properties");
+def secretProperties = new Properties()
+secretProperties.load(new FileInputStream(secretPropertiesFile))
+
 android {
 
     compileSdkVersion 28
@@ -25,6 +29,9 @@ android {
         buildConfigField('String', 'FULL_VERSION_NAME', "\"$versionName.$versionCode\"")
         resValue 'string', 'application_id', applicationId
         multiDexEnabled true
+        buildConfigField("String", "goodleSignInClientID", secretProperties['goodleSignInClientID'])
+        buildConfigField("String", "googleSignInClientSecret", secretProperties['googleSignInClientSecret'])
+
     }
 
     signingConfigs {
