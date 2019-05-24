@@ -7,7 +7,7 @@ import android.content.Context
 import dagger.Binds
 import dagger.Module
 import dagger.android.support.AndroidSupportInjectionModule
-import net.samystudio.beaver.BeaverApplication
+import net.samystudio.beaver.SoshiApplication
 import net.samystudio.beaver.data.service.ServiceBuilderModule
 import net.samystudio.beaver.di.qualifier.ApplicationContext
 import net.samystudio.beaver.ui.ActivityBuilderModule
@@ -21,7 +21,7 @@ import javax.inject.Singleton
 abstract class ApplicationModule {
     @Binds
     @Singleton
-    abstract fun bindApplication(application: BeaverApplication): Application
+    abstract fun bindApplication(application: SoshiApplication): Application
 
     @Binds
     @Singleton

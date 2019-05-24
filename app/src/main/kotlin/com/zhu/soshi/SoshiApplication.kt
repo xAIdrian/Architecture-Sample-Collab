@@ -10,7 +10,7 @@ import net.samystudio.beaver.di.component.DaggerApplicationComponent
 import timber.log.Timber
 import javax.inject.Inject
 
-class BeaverApplication : DaggerApplication() {
+class SoshiApplication : DaggerApplication() {
     private val applicationInjector = DaggerApplicationComponent.builder()
         .application(this)
         .build()

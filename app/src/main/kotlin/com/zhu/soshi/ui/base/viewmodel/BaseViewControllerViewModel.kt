@@ -1,4 +1,4 @@
-package net.samystudio.beaver.ui.base.viewmodel
+package com.zhu.soshi.ui.base.viewmodel
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,7 @@ import androidx.lifecycle.LiveData
 import com.evernote.android.state.StateSaver
 import io.reactivex.BackpressureStrategy
 import net.samystudio.beaver.data.manager.UserManager
+import net.samystudio.beaver.ui.base.viewmodel.BaseViewModel
 import net.samystudio.beaver.ui.common.navigation.NavigationRequest
 import net.samystudio.beaver.ui.common.viewmodel.NavigationEvent
 import net.samystudio.beaver.ui.common.viewmodel.SingleLiveEvent

@@ -1,4 +1,4 @@
-package net.samystudio.beaver.ui.main.authenticator
+package com.zhu.soshi.ui.main.authenticator
 
 import android.accounts.AccountAuthenticatorResponse
 import android.accounts.AccountManager
@@ -18,6 +18,7 @@ import net.samystudio.beaver.ui.base.viewmodel.BaseFragmentViewModel
 import net.samystudio.beaver.ui.base.viewmodel.DataPushViewModel
 import net.samystudio.beaver.ui.common.navigation.NavigationRequest
 import net.samystudio.beaver.ui.common.viewmodel.AsyncStateLiveData
+import net.samystudio.beaver.ui.main.authenticator.AuthenticatorUserFlow
 import javax.inject.Inject
 
 @FragmentScope

@@ -3,6 +3,8 @@
 package net.samystudio.beaver.ui.main.authenticator
 
 import androidx.fragment.app.Fragment
+import com.zhu.soshi.ui.main.authenticator.AuthenticatorFragment
+import com.zhu.soshi.ui.main.authenticator.AuthenticatorFragmentViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.Provides

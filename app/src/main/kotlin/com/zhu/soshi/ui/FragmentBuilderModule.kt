@@ -1,11 +1,11 @@
 @file:Suppress("unused")
 
-package net.samystudio.beaver.ui
+package com.zhu.soshi.ui
 
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 import net.samystudio.beaver.di.scope.FragmentScope
-import net.samystudio.beaver.ui.main.authenticator.AuthenticatorFragment
+import com.zhu.soshi.ui.main.authenticator.AuthenticatorFragment
 import net.samystudio.beaver.ui.main.authenticator.AuthenticatorFragmentModule
 import net.samystudio.beaver.ui.main.home.HomeFragment
 import net.samystudio.beaver.ui.main.home.HomeFragmentModule

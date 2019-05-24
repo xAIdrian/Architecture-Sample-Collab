@@ -24,7 +24,7 @@
         android:label="UserProfileFragment" />
     <fragment
         android:id="@+id/authenticator"
-        android:name="net.samystudio.beaver.ui.main.authenticator.AuthenticatorFragment"
+        android:name="com.zhu.soshi.ui.main.authenticator.AuthenticatorFragment"
         android:label="AuthenticatorFragment" />
     <action
         android:id="@+id/action_global_authenticator"

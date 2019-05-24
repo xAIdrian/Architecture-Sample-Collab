@@ -3,6 +3,7 @@
 package net.samystudio.beaver.ui.main.userProfile
 
 import androidx.fragment.app.Fragment
+import com.zhu.soshi.ui.main.userProfile.UserProfileFragmentViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.Provides

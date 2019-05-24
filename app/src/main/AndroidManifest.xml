@@ -22,7 +22,7 @@
         android:maxSdkVersion="22" />
 
     <application
-        android:name=".BeaverApplication"
+        android:name=".SoshiApplication"
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup"
         android:icon="@mipmap/ic_launcher"

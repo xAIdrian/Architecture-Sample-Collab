@@ -8,7 +8,7 @@ import dagger.Module
 import dagger.multibindings.IntoMap
 import net.samystudio.beaver.di.key.ActivityViewModelKey
 import net.samystudio.beaver.di.scope.ActivityScope
-import net.samystudio.beaver.ui.FragmentBuilderModule
+import com.zhu.soshi.ui.FragmentBuilderModule
 import net.samystudio.beaver.ui.base.activity.BaseActivityModule
 import net.samystudio.beaver.ui.base.viewmodel.BaseActivityViewModel
 
