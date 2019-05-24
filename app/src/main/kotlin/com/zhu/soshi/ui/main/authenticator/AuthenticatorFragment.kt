@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import io.reactivex.disposables.CompositeDisposable
+import net.samystudio.beaver.R
 import net.samystudio.beaver.ext.getGenericErrorDialog
 import net.samystudio.beaver.ext.getMethodTag
 import net.samystudio.beaver.ui.base.fragment.BaseDataPushFragment
@@ -18,19 +19,19 @@ class AuthenticatorFragment : BaseDataPushFragment<AuthenticatorFragmentViewMode
     override var title: String? = "Authenticator"
     private var disposables: CompositeDisposable? = null
 
-    private val mGoogleSignInClient = GoogleSignInClient()
+//    private val mGoogleSignInClient = GoogleSignInClient()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         // Configure sign-in to request the user's ID, email address, and basic
         // profile. ID and basic profile are included in DEFAULT_SIGN_IN.
-        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestEmail()
-                .build()
-
-        // Build a GoogleSignInClient with the options specified by gso.
-        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+//        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+//                .requestEmail()
+//                .build()
+//
+//        // Build a GoogleSignInClient with the options specified by gso.
+//        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
     }
 
     override fun dataPushStart() {
